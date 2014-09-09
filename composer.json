@@ -1,0 +1,23 @@
+{
+	"name": "PhpMailerProvide",
+	"description": "Service provider by Php Mailer",
+	"keywords": ["phpmailer", "serviceprovider"],
+	"authors": [
+		{
+			"name": "Franco Torletti",
+			"email": "frantorletti@gmail.com"
+		}
+	],
+	"require": {
+		"ext-curl": "*",
+		"php": ">=5.3.2",
+        "mercadopago/sdk": "*",
+        "phpmailer/phpmailer": "*"
+	},
+	"autoload": {
+		"psr-0": {
+            "provider": "frantorletti"
+        }
+	},
+    "minimum-stability": "dev"
+}
