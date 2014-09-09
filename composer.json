@@ -1,5 +1,5 @@
 {
-	"name": "PhpMailerProvide",
+	"name": "frantorletti/PhpMailerProvide",
 	"description": "Service provider by Php Mailer",
 	"keywords": ["phpmailer", "serviceprovider"],
 	"authors": [
